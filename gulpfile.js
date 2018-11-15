@@ -19,6 +19,8 @@ gulp.task("js", function(){
     gulp.src("src/js/*")
         .pipe(
             webpack({
+                mode: 'production',
+                devtool: 'source-map',
                 output: {
                     filename: "app.js"
                 }

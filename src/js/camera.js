@@ -4,7 +4,7 @@ import { PerspectiveCamera } from 'three';
 export default function() {
 
     var camera = new PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
-    camera.position.z = 100;
+    camera.position.z = 20;
     return camera;
 
 }
